@@ -1,0 +1,189 @@
+
+
+/* .margin {
+  width: 10%;
+  height: 100%;
+} */
+
+body {
+  background-image: url("C:/Users/Benjamin%20Manninen/Documents/Ethan%20Website/resources/clouds.svg");
+  background-size:cover;
+  /* width: 70%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto 0 auto;
+  height: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: lavender;
+
+}
+
+.splash {
+  display: flex;
+  flex-direction: column;
+  margin:25px auto;
+  align-items: center;
+
+}
+.splash p{
+  width: 60%;
+}
+.splash div{
+  width: 100%;
+}
+.splash img{
+  width: 100%;
+  height: auto;
+}
+.center{
+  width:70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+.splashwide{
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.splashwide img{
+  width:20%;
+}
+.content {
+  margin: 20px auto;
+  height: 100%;
+}
+
+.container div {
+  /* margin: 25px 0; */
+}
+
+.nav{
+  /* width:50%; */
+  height: 100%;
+}
+.nav ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: 100%;
+}
+.nav li{
+  margin: auto 25px;
+  color: black;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+}
+.spacer{
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: 0;
+}
+.icon img{
+  height: 40px;
+  width: 40px;
+  margin: 20px;
+}
+.content img{
+  height 120px;
+
+}
+.active {
+  font-size-adjust: 2;
+  font-weight: bold;
+}
+
+.glink{
+  display: flex;
+  flex-direction: row;
+  color: black;
+  text-decoration: none;
+}
+
+iframe {
+  width: 100%;
+  height: 800px;
+  background-color: transparent;
+  allowtransparency:"true";
+}
+
+.leftthird {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  margin: 25px 3% 25px 2%;
+
+}
+.rightthird {
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  margin: 25px 2% 25px 3%;
+}
+.leftdouble {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  margin: auto 3% auto 2%;
+}
+.rightdouble {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  margin: auto 2% auto 3%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+.fifth{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+
+  margin: auto 2% auto 2%;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 0 10px;
+}
+.fifth img{
+  width: 200px;
+}
+
+.slidecap{
+  position: relative;
+  bottom: 55px;
+  left: 35px;
+  border: 2px solid black;
+  background-color: lavender;
+  width: fit-content !important;
+  padding: 5px;
+}
+
+.oversized{
+  width:40%;
+}
+
+.vertical{
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.hidden {
+  display: none;
+}
