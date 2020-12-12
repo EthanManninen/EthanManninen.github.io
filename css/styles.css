@@ -155,12 +155,12 @@ iframe {
   height: auto;
   width: auto;
 
-  margin: auto 2% auto 2%;
+  margin: 25px;
   border-radius: 10px;
   border: 2px solid black;
-  padding: 0 10px;
+  padding: 5px;
 }
-.fifth img{
+.fifth img p{
   width: 200px;
 }
 
