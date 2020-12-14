@@ -153,8 +153,8 @@ iframe {
   display: flex;
   flex-direction: column;
   height: auto;
-  width: auto;
-
+  width: 210px;
+  align-items: flex-start;
   margin: 25px;
   border-radius: 10px;
   border: 2px solid black;
@@ -162,6 +162,11 @@ iframe {
 }
 .fifth img{
   width: 200px;
+}
+
+.splashwide p{
+  align-self: center;
+
 }
 
 .slidecap{
